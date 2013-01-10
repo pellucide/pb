@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:constantSize="true" 
+    android:dither="true"
+    android:variablePadding="false" >
+<item android:state_pressed="true"  xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:drawable="@drawable/red_button_pressed" />
+<item   xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:drawable="@drawable/red_button_normal" />
+
+</selector>

@@ -12,9 +12,14 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+        public static final int red_button=0x7f020001;
+        public static final int red_button_normal=0x7f020002;
+        public static final int red_button_pressed=0x7f020003;
+        public static final int red_button_white_border=0x7f020004;
     }
     public static final class id {
-        public static final int menu_settings=0x7f070000;
+        public static final int menu_settings=0x7f070001;
+        public static final int root=0x7f070000;
     }
     public static final class layout {
         public static final int activity_pressure_button=0x7f030000;

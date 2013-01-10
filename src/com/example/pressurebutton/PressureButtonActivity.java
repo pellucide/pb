@@ -2,7 +2,10 @@ package com.example.pressurebutton;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.graphics.Color;
 import android.view.Menu;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 public class PressureButtonActivity extends Activity {
 
@@ -10,6 +13,13 @@ public class PressureButtonActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_pressure_button);
+		LinearLayout parent = (LinearLayout) this.findViewById(R.id.root);
+		PressureButton pb = new PressureButton(this);
+		pb.setText("TESTING");
+		pb.setTextColor(Color.BLACK);
+		pb.setTextSize(22);
+		parent.removeAllViews();
+		parent.addView(pb);
 	}
 
 	@Override
