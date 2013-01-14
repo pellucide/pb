@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+  -->
+<item android:bottom="0px" android:right="0px" android:top="0px" android:left="0px">
+     <shape  android:shape="oval">
+          <gradient
+                android:startColor="#ff109165"
+                android:centerColor="#ff109165"
+                android:centerX="0.35"
+                android:endColor="#ff109165"
+                android:angle="315"
+                android:dither="true" />    
+    </shape>
+</item>
+
+<item android:bottom="0px" android:right="0px" android:top="0px" android:left="0px">
+     <shape android:shape="oval">
+          <gradient
+                android:startColor="#9feeeeee"
+                android:centerColor="#11111111"
+                android:centerX="0.45"
+                android:centerY="0.45"
+                android:endColor="#11111111"
+                android:angle="315"
+                android:dither="true" />    
+    </shape>
+</item>
+
+<item android:bottom="0px" android:right="0px" android:top="0px" android:left="0px">
+     <shape  android:shape="oval">
+          <gradient
+                android:startColor="#5faaaaaa"
+                android:centerColor="#11111111"
+                android:centerX="0.12"
+                android:centerY="0.12"
+                android:endColor="#11111111"
+                android:angle="270"
+                android:dither="true" />    
+    </shape>
+</item>
+
+<item android:bottom="0px" android:right="0px" android:top="0px" android:left="0px">
+     <shape android:shape="oval">
+          <gradient
+                android:startColor="#5faaaaaa"
+                android:centerColor="#11111111"
+                android:centerX="0.14"
+                android:centerY="0.14"
+                android:endColor="#11111111"
+                android:angle="0"
+                android:dither="true" />    
+    </shape>
+</item>
+
+
+<item android:bottom="0px" android:right="0px" android:top="0px" android:left="0px">
+     <shape android:shape="oval">
+          <gradient
+                android:startColor="#cf111111"
+                android:centerColor="#01111111"
+                android:centerX="0.35"
+                android:centerY="0.35"
+                android:endColor="#01111111"
+                android:angle="135"
+                android:dither="true" />    
+    </shape>
+</item>
+
+<item android:bottom="0px" android:right="0px" android:top="0px" android:left="0px">
+     <shape  android:shape="oval">
+          <gradient
+                android:startColor="#5f444444"
+                android:centerColor="#11111111"
+                android:centerX="0.12"
+                android:centerY="0.12"
+                android:endColor="#11111111"
+                android:angle="90"
+                android:dither="true" />    
+    </shape>
+</item>
+
+<item android:bottom="0px" android:right="0px" android:top="0px" android:left="0px">
+     <shape android:shape="oval">
+          <gradient
+                android:startColor="#5f444444"
+                android:centerColor="#11111111"
+                android:centerX="0.12"
+                android:centerY="0.12"
+                android:endColor="#11111111"
+                android:angle="180"
+                android:dither="true" />    
+    </shape>
+</item>
+<item android:id="@+id/innerBevel1" android:bottom="15px" android:right="15px" android:top="15px" android:left="15px">
+     <shape android:shape="oval">
+          <gradient
+                android:startColor="#95000000"
+                android:centerColor="#22000000"
+                android:centerX="0.40"
+                android:endColor="#00eeeeee"
+                android:angle="315"
+                android:dither="true" />    
+    </shape>
+</item>
+<item android:id="@+id/innerBevel2" android:bottom="15px" android:right="15px" android:top="15px" android:left="15px">
+     <shape android:shape="oval">
+          <gradient
+                android:startColor="#65eeeeee"
+                android:centerColor="#22aaaaaa"
+                android:centerX="0.40"
+                android:endColor="#00eeeeee"
+                android:angle="135"
+                android:dither="true" />    
+    </shape>
+</item>
+<!--
+  -->
+  
+  
+  
+<!--
+<item android:bottom="0px" android:right="0px" android:top="0px" android:left="0px">
+     <shape android:shape="rectangle">
+          <gradient
+                android:startColor="#12000000"
+                android:centerColor="#12000000"
+                android:centerY="0.57"
+                android:endColor="#33ffffff"
+                android:angle="0"
+                android:dither="true" />    
+          <corners android:radius="29dp" />
+    </shape>
+</item>
+ 
+<item android:bottom="1dp" android:right="1dp" android:top="0px" android:left="0px">
+     <shape android:shape="rectangle">
+          <gradient
+                android:startColor="#12000000"
+                android:centerColor="#12000000"
+                android:centerX="0.54"
+                android:endColor="#55000000"
+                android:angle="90"
+                android:dither="true" />    
+          <corners android:radius="29dp" />
+
+    </shape>
+</item>
+<item android:bottom="1dp" android:right="1dp" android:top="0px" android:left="0px">
+     <shape android:shape="rectangle">
+          <gradient
+                android:startColor="#12000000"
+                android:centerColor="#12000000"
+                android:centerY="0.97"
+                android:endColor="#55000000"
+                android:angle="180"
+                android:dither="true" />    
+          <corners android:radius="29dp" />
+
+    </shape>
+</item>
+
+  -->
+</layer-list>
+
+
