@@ -5,12 +5,12 @@
 *.pydevproject
 .metadata
 bin/
+gen/
 tmp/
 *.tmp
 *.bak
 *.swp
 *~.nib
-local.properties
 .settings/
 .loadpath
 
